@@ -16,7 +16,7 @@ public class SignUpTest {
 
     @BeforeEach
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Andrei.Kaliasinski\\IdeaProjects\\testselenium\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\JavaLesson\\testselenium\\drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
